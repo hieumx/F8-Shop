@@ -1,102 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
     <link rel="stylesheet" href="./assets/css/base.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <link
-      rel="stylesheet"
-      href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.css"
-    />
-    <link
-      rel="stylesheet"
-      href="./assets/fonts/themify-icons/themify-icons.css"
-    />
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.css" />
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
     <!-- Block Element Modifier -->
     <div class="app">
-      <header class="header">
-        <div class="grid">
-          <nav class="header__navbar">
-            <ul class="header__navbar-list">
-              <li
-                class="header__navbar-item header__navbar-item--has-qr header__navbar-item--seprate"
-              >
-                Vào cửa hàng trên ứng dụng LoiTV-Shop
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--seprate">
+                            Vào cửa hàng trên ứng dụng LoiTV-Shop
 
-                <!-- Header QR Code -->
-                <div class="header__qr">
-                  <img
-                    src="/assets/img/qr_code.png"
-                    alt="QR Code"
-                    class="header__qr-img"
-                  />
-                  <div class="header__qr-apps">
-                    <a href="" class="header__qr-link">
-                      <img
-                        src="./assets/img/app.png"
-                        alt="Apple Store"
-                        class="header__qr-download-img"
-                      />
-                    </a>
-                    <a href="" class="header__qr-link">
-                      <img
-                        src="./assets/img/ch.png"
-                        alt="Goolge Play"
-                        class="header__qr-download-img"
-                      />
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <li class="header__navbar-item">
-                <span class="header__navbar-title-no-pointer">Kết nối</span>
-                <a href="" class="header__navbar-icon-link">
-                  <i class="header__navbar-icon fa-brands fa-facebook"></i>
-                </a>
-                <a href="" class="header__navbar-icon-link">
-                  <i class="header__navbar-icon fa-brands fa-instagram"></i>
-                </a>
-              </li>
-            </ul>
-            <ul class="header__navbar-item">
-              <li class="header__navbar-item header__navbar-item--has-notify">
-                <a href="" class="header__navbar-item-link">
-                  <i class="header__navbar-icon far fa-bell"></i>Thông báo
-                </a>
-                <div class="header__notify">
-                  <header class="header__notify-header">
-                    <h3>Thông Báo Mới Nhận</h3>
-                  </header>
-                  <ul class="header__notify-list">
-                    <li class="header__notify-item">
-                      <a
-                        href=""
-                        class="header__notify-link header_notify-item--viewed"
-                      >
-                        <span
-                          ><img
+                            <!-- Header QR Code -->
+                            <div class="header__qr">
+                                <img src="/assets/img/qr_code.png" alt="QR Code" class="header__qr-img" />
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/app.png" alt="Apple Store" class="header__qr-download-img" />
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/ch.png" alt="Goolge Play" class="header__qr-download-img" />
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title-no-pointer">Kết nối</span>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header__navbar-item">
+                        <li class="header__navbar-item header__navbar-item--has-notify">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon far fa-bell"></i>Thông báo
+                            </a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông Báo Mới Nhận</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link header_notify-item--viewed">
+                                            <span><img
                             src="https://img.abaha.vn/photos/origin/83-1585291439-myphamohui-lgvina.png"
                             alt=""
                             class="header__notify-img"
                         /></span>
-                        <div class="header__notify-info">
-                          <span class="header__notify-name"
-                            >Bộ dưỡng trắng da Su:m37 Water-full Radiant 3pcs
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Bộ dưỡng trắng da Su:m37 Water-full Radiant 3pcs
                             Set</span
                           >
                           <span class="header__notify-description"
@@ -114,9 +85,8 @@
                             alt=""
                             class="header__notify-img"
                         /></span>
-                        <div class="header__notify-info">
-                          <span class="header__notify-name"
-                            >Bộ dưỡng trắng da Su:m37 Water-full Radiant 3pcs
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">Bộ dưỡng trắng da Su:m37 Water-full Radiant 3pcs
                             Set</span
                           >
                           <span class="header__notify-description"
@@ -134,9 +104,8 @@
                             alt=""
                             class="header__notify-img"
                         /></span>
-                        <div class="header__notify-info">
-                          <span class="header__notify-name"
-                            >Bộ dưỡng trắng da Su:m37 Water-full Radiant 3pcs
+                                                    <div class="header__notify-info">
+                                                        <span class="header__notify-name">Bộ dưỡng trắng da Su:m37 Water-full Radiant 3pcs
                             Set</span
                           >
                           <span class="header__notify-description"
@@ -173,27 +142,25 @@
                   class="header__navbar-user-img"
                 />
                 <span class="header__navbar-user-name">HieuMx</span>
-                <ul class="header__navbar-user-menu">
-                  <li class="header__navbar-user-item">
-                    <a href="">Tài khoản của tôi</a>
-                  </li>
-                  <li class="header__navbar-user-item">
-                    <a href="">Đơn mua</a>
-                  </li>
-                  <li
-                    class="header__navbar-user-item header__navbar-user-item-seprate"
-                  >
-                    <a href="">Đăng xuất</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </nav>
-          <!-- Header with search -->
-          <div class="header-with-search">
-            <div class="header__logo">
-              <a href="/" class="header__logo-link">
-                <svg viewBox="0 0 192 65" class="header__logo-img">
+                                                        <ul class="header__navbar-user-menu">
+                                                            <li class="header__navbar-user-item">
+                                                                <a href="">Tài khoản của tôi</a>
+                                                            </li>
+                                                            <li class="header__navbar-user-item">
+                                                                <a href="">Đơn mua</a>
+                                                            </li>
+                                                            <li class="header__navbar-user-item header__navbar-user-item-seprate">
+                                                                <a href="">Đăng xuất</a>
+                                                            </li>
+                                                        </ul>
+                                    </li>
+                                </ul>
+                </nav>
+                <!-- Header with search -->
+                <div class="header-with-search">
+                    <div class="header__logo">
+                        <a href="/" class="header__logo-link">
+                            <svg viewBox="0 0 192 65" class="header__logo-img">
                   <g fill-rule="evenodd">
                     <path
                       fill="#fff"
@@ -201,221 +168,186 @@
                     ></path>
                   </g>
                 </svg>
-              </a>
-            </div>
-            <div class="header__search">
-              <div class="header__search-input-warp">
-                <input
-                  type="text"
-                  class="header__search-input"
-                  placeholder="Nhập để tìm kiếm sản phẩm"
-                />
-                <!-- Search History -->
-                <div class="header__search-history">
-                  <h3 class="header__search-history-heading">
-                    Lịch sử tìm kiếm
-                  </h3>
-                  <ul class="header__search-history-list">
-                    <li class="header__search-history-item">
-                      <a href="">Kem dưỡng da</a>
-                    </li>
-                    <li class="header__search-history-item">
-                      <a href="">Kem trị mụn</a>
-                    </li>
-                    <li class="header__search-history-item">
-                      <a href="">Kem dưỡng ẩm</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="header__search-select">
-                <span class="header__search-select-label">Trong Shop</span>
-                <i
-                  class="header__search-select-icon fa-sharp fa-solid fa-chevron-down"
-                ></i>
-                <ul class="header__search-option">
-                  <li class="header__search-option-item">
-                    <span>Trong Shop</span>
-                    <i class="fa-solid fa-check"></i>
-                  </li>
-                  <li class="header__search-option-item">
-                    <span>Ngoài Shop</span>
-                    <i class="fa-solid fa-check"></i>
-                  </li>
-                </ul>
-              </div>
-              <button class="header__search-btn">
+                        </a>
+                    </div>
+                    <div class="header__search">
+                        <div class="header__search-input-warp">
+                            <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm sản phẩm" />
+                            <!-- Search History -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">
+                                    Lịch sử tìm kiếm
+                                </h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">Kem dưỡng da</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Kem trị mụn</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Kem dưỡng ẩm</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__search-select">
+                            <span class="header__search-select-label">Trong Shop</span>
+                            <i class="header__search-select-icon fa-sharp fa-solid fa-chevron-down"></i>
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item">
+                                    <span>Trong Shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                                <li class="header__search-option-item">
+                                    <span>Ngoài Shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header__search-btn">
                 <i
                   class="header__search-btn-icon fa-solid fa-magnifying-glass"
                 ></i>
               </button>
-            </div>
-            <!-- Cart layout -->
-            <div class="header__cart">
-              <div class="header__cart-warp">
-                <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
-                <span class="header__cart-notice">3</span>
-                <!-- header__cart-list--no-cart -->
-                <div class="header__cart-list">
-                  <img
-                    src="./assets/img/no-cart.png"
-                    alt="No Cart"
-                    class="header__cart-no-cart-img"
-                  />
-                  <span class="header__cart-list-no-cart-msg">
+                    </div>
+                    <!-- Cart layout -->
+                    <div class="header__cart">
+                        <div class="header__cart-warp">
+                            <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                            <span class="header__cart-notice">3</span>
+                            <!-- header__cart-list--no-cart -->
+                            <div class="header__cart-list">
+                                <img src="./assets/img/no-cart.png" alt="No Cart" class="header__cart-no-cart-img" />
+                                <span class="header__cart-list-no-cart-msg">
                     Chưa có sản phẩm
                   </span>
-                  <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
-                  <ul class="header__cart-list-item">
-                    <!-- Cart item -->
-                    <li class="header__cart-item">
-                      <img
-                        src="https://cf.shopee.vn/file/dfa2cbf59ff9bc518a2b7661edde77ad_tn"
-                        alt=""
-                        class="header__cart-img"
-                      />
-                      <div class="header__cart-item-info">
-                        <div class="header__cart-item-head">
-                          <h5 class="header__cart-item-name">
-                            Hộp 4 Viên Nén Vệ Sinh Lồng Giặt
-                          </h5>
-                          <div class="header__cart-item-price-warp">
-                            <span class="header__cart-item-price">89.000đ</span>
-                            <span class="header__cart-item-multiply">x</span>
-                            <span class="header__cart-item-qnt">2</span>
-                          </div>
-                        </div>
-                        <div class="header__cart-item-body">
-                          <span class="header__cart-item-descripttion">
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="header__cart-list-item">
+                                    <!-- Cart item -->
+                                    <li class="header__cart-item">
+                                        <img src="https://cf.shopee.vn/file/dfa2cbf59ff9bc518a2b7661edde77ad_tn" alt="" class="header__cart-img" />
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">
+                                                    Hộp 4 Viên Nén Vệ Sinh Lồng Giặt
+                                                </h5>
+                                                <div class="header__cart-item-price-warp">
+                                                    <span class="header__cart-item-price">89.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-descripttion">
                             Phân loại : Bạc
                           </span>
-                          <span class="header__cart-item-remove">Xoá</span>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="header__cart-item">
-                      <img
-                        src="https://cf.shopee.vn/file/sg-11134201-22100-di1vgwx4sriv12"
-                        alt=""
-                        class="header__cart-img"
-                      />
-                      <div class="header__cart-item-info">
-                        <div class="header__cart-item-head">
-                          <h5 class="header__cart-item-name">
-                            Áo Sweater,Áo Nỉ REMINDER Khoá Cổ
-                          </h5>
-                          <div class="header__cart-item-price-warp">
-                            <span class="header__cart-item-price"
-                              >156.750đ</span
+                                                <span class="header__cart-item-remove">Xoá</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="https://cf.shopee.vn/file/sg-11134201-22100-di1vgwx4sriv12" alt="" class="header__cart-img" />
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">
+                                                    Áo Sweater,Áo Nỉ REMINDER Khoá Cổ
+                                                </h5>
+                                                <div class="header__cart-item-price-warp">
+                                                    <span class="header__cart-item-price">156.750đ</span
                             >
                             <span class="header__cart-item-multiply">x</span>
-                            <span class="header__cart-item-qnt">1</span>
-                          </div>
-                        </div>
-                        <div class="header__cart-item-body">
-                          <span class="header__cart-item-descripttion">
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-descripttion">
                             Phân loại : Bạc
                           </span>
-                          <span class="header__cart-item-remove">Xoá</span>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                  <a href="#" class="header__cart-view-cart btn btn--primary">
+                                                <span class="header__cart-item-remove">Xoá</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <a href="#" class="header__cart-view-cart btn btn--primary">
                     Xem giỏ hàng
                   </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-      <!-- Grid -> Row -> Column -->
-      <div class="app__container">
-        <div class="grid">
-          <div class="grid__row app__content">
-            <div class="grid__column-2">
-              <nav class="category">
-                <h3 class="category__heading">
-                  <i class="category__heading-icon fa-solid fa-list"></i>Danh
-                  mục
-                </h3>
-                <ul class="category-list">
-                  <li class="category-item category-item--active">
-                    <a href="#" class="category-item__link">Trang điểm mặt</a>
-                  </li>
-                  <li class="category-item">
-                    <a href="#" class="category-item__link">Trang điểm môi</a>
-                  </li>
-                  <li class="category-item">
-                    <a href="#" class="category-item__link">Trang điểm mắt</a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-            <div class="grid__column-10">
-              <div class="home-filter">
-                <span class="home-filter__label">Sắp xếp theo</span>
-                <button class="home-filter__btn btn">Phổ biến</button>
-                <button class="home-filter__btn btn btn--primary">
+                </div>
+        </header>
+        <!-- Grid -> Row -> Column -->
+        <div class="app__container">
+            <div class="grid">
+                <div class="grid__row app__content">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="category__heading-icon fa-solid fa-list"></i>Danh mục
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item__link">Trang điểm mặt</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Trang điểm môi</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Trang điểm mắt</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <span class="home-filter__label">Sắp xếp theo</span>
+                            <button class="home-filter__btn btn">Phổ biến</button>
+                            <button class="home-filter__btn btn btn--primary">
                   Mới nhất
                 </button>
-                <button class="home-filter__btn btn">Bán chạy</button>
-                <div class="select-input">
-                  <span class="select-input__label">Giá</span>
-                  <i
-                    class="select-input__icon fa-sharp fa-solid fa-chevron-down"
-                  ></i>
-                  <!-- List options -->
-                  <ul class="select-input__list">
-                    <li class="select-input__item">
-                      <a href="" class="select-input__link">Giá thấp đến cao</a>
-                    </li>
-                    <li class="select-input__item">
-                      <a href="" class="select-input__link">Giá cao đến thấp</a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="home-filter__page">
-                  <span class="home-filter__page-num">
+                            <button class="home-filter__btn btn">Bán chạy</button>
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="select-input__icon fa-sharp fa-solid fa-chevron-down"></i>
+                                <!-- List options -->
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá thấp đến cao</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá cao đến thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
                     <span class="home-filter__page-current">1</span>/14
-                  </span>
-                  <div class="home-filter__page-control">
-                    <a
-                      href=""
-                      class="home-filter__page-btn home-filter__page-btn--disabled"
-                    >
-                      <i
-                        class="home-filter__page-icon fa-sharp fa-solid fa-chevron-left"
-                      ></i>
-                    </a>
-                    <a href="" class="home-filter__page-btn">
-                      <i
-                        class="home-filter__page-icon fa-sharp fa-solid fa-chevron-right"
-                      ></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="home-product">
-                <div class="grid__row">
-                  <div class="grid__column-2-4">
-                    <!-- Product Item -->
-                    <div class="home-product-item">
-                      <div
-                        class="home-product-item__img"
-                        style="
+                                </span>
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn--disabled">
+                                        <i class="home-filter__page-icon fa-sharp fa-solid fa-chevron-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="home-filter__page-icon fa-sharp fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home-product">
+                            <div class="grid__row">
+                                <div class="grid__column-2-4">
+                                    <!-- Product Item -->
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img" style="
                           background-image: url(https://cf.shopee.vn/file/ba4e259e70b51b01d3c7c43983c6c27c);
-                        "
-                      ></div>
-                      <h4 class="home-product-item__name">
-                        Áo Sweater CUNA Áo Sweater Nam Nữ Form Rộng Chất Cotton
-                        Nỉ Ngoại Hàng Xuất Cao Cấp Trơn Cổ Tròn Dài Tay Local
-                        Brand
-                      </h4>
-                      <div class="home-product-item__price">
-                        <span class="home-product-item__price-old"
-                          >309.000đ</span
+                        "></div>
+                                        <h4 class="home-product-item__name">
+                                            Áo Sweater CUNA Áo Sweater Nam Nữ Form Rộng Chất Cotton Nỉ Ngoại Hàng Xuất Cao Cấp Trơn Cổ Tròn Dài Tay Local Brand
+                                        </h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">309.000đ</span
                         >
                         <span class="home-product-item__price-current"
                           >169.000đ</span
@@ -432,35 +364,26 @@
                             class="home-product-item__like-icon-fill fa-solid fa-heart"
                           ></i>
                         </span>
-                        <div class="home-product-item__rating">
-                          <i
-                            class="home-product-item__star--gold fa-regular fa-star"
-                          ></i>
-                          <i
-                            class="home-product-item__star--gold fa-regular fa-star"
-                          ></i>
-                          <i
-                            class="home-product-item__star--gold fa-regular fa-star"
-                          ></i>
-                          <i
-                            class="home-product-item__star--gold fa-regular fa-star"
-                          ></i>
-                          <i class="fa-regular fa-star"></i>
-                        </div>
-                        <span class="home-product-item__sold">88 đã bán</span>
-                      </div>
-                      <div class="home-product-item__origin">
-                        <span class="home-product-item__brand">Hà Nội</span>
-                        <span class="home-product-item__origin-name"
-                          >Hàn Quốc</span
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fa-regular fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-regular fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-regular fa-star"></i>
+                                                <i class="home-product-item__star--gold fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">88 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Hà Nội</span>
+                                            <span class="home-product-item__origin-name">Hàn Quốc</span
                         >
                       </div>
                       <div class="home-product-item__favourite">
-                        <i class="fa-solid fa-check"></i>Yêu thích
-                      </div>
-                      <div class="home-product-item__sale-off">
-                        <span class="home-product-item__sale-off-percent"
-                          >45%</span
+                        <i class="fa-solid fa-check"></i>
+                        <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">45%</span
                         >
                         <span class="home-product-item__sale-off-label"
                           >GIẢM</span
@@ -487,70 +410,46 @@
             <div class="auth-form__header">
               <h3 class="auth-form__heading">Đăng ký</h3>
               <span class="auth-form__switch-btn">Đăng nhập</span>
-            </div>
-            <div class="auth-form__form">
-              <div class="auth-from__group">
-                <input
-                  type="text"
-                  class="auth-form__input"
-                  placeholder="Email của bạn"
-                />
-              </div>
-              <div class="auth-from__group">
-                <input
-                  type="text"
-                  class="auth-form__input"
-                  placeholder="Mật khẩu của bạn"
-                />
-              </div>
-              <div class="auth-from__group">
-                <input
-                  type="text"
-                  class="auth-form__input"
-                  placeholder="Nhập lại mật khẩu"
-                />
-              </div>
-            </div>
-            <div class="auth-form__aside">
-              <p class="auth-form__policy-text">
-                Bằng việc đăng kí, bạn đã đồng ý với LoiTV-Shop về
-                <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a>
-                &
-                <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
-              </p>
-            </div>
-            <div class="auth-form__controls">
-              <button class="btn auth-form__controls-back btn--normal">
+                                        </div>
+                                        <div class="auth-form__form">
+                                            <div class="auth-from__group">
+                                                <input type="text" class="auth-form__input" placeholder="Email của bạn" />
+                                            </div>
+                                            <div class="auth-from__group">
+                                                <input type="text" class="auth-form__input" placeholder="Mật khẩu của bạn" />
+                                            </div>
+                                            <div class="auth-from__group">
+                                                <input type="text" class="auth-form__input" placeholder="Nhập lại mật khẩu" />
+                                            </div>
+                                        </div>
+                                        <div class="auth-form__aside">
+                                            <p class="auth-form__policy-text">
+                                                Bằng việc đăng kí, bạn đã đồng ý với LoiTV-Shop về
+                                                <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a> &
+                                                <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                                            </p>
+                                        </div>
+                                        <div class="auth-form__controls">
+                                            <button class="btn auth-form__controls-back btn--normal">
                 TRỞ LẠI
               </button>
-              <button class="btn btn--primary">ĐĂNG KÝ</button>
-            </div>
-          </div>
-          <div class="auth-form__socials">
-            <a
-              href=""
-              class="auth-form__socials--facebook btn btn--size-s btn--with-icon"
-            >
-              <i
-                class="auth-form__socials-icon fa-brands fa-square-facebook"
-              ></i>
-              <span class="auth-form__socials-title">Kết nối với Facebook</span>
-            </a>
-            <a
-              href=""
-              class="auth-form__socials--google btn btn--size-s btn--with-icon"
-            >
-              <img
-                src="https://img.icons8.com/color/18/null/google-logo.png"
-                class="auth-form__socials-icon"
-              />
-              <span class="auth-form__socials-title">Kết nối với Google</span>
-            </a>
-          </div>
-        </div> -->
+                                            <button class="btn btn--primary">ĐĂNG KÝ</button>
+                                        </div>
+                                    </div>
+                                    <div class="auth-form__socials">
+                                        <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                                            <i class="auth-form__socials-icon fa-brands fa-square-facebook"></i>
+                                            <span class="auth-form__socials-title">Kết nối với Facebook</span>
+                                        </a>
+                                        <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                                            <img src="https://img.icons8.com/color/18/null/google-logo.png" class="auth-form__socials-icon" />
+                                            <span class="auth-form__socials-title">Kết nối với Google</span>
+                                        </a>
+                                    </div>
+                                </div> -->
 
-    <!-- Login form -->
-    <!-- <div class="auth-form">
+                                <!-- Login form -->
+                                <!-- <div class="auth-form">
           <div class="auth-form__container">
             <div class="auth-form__header">
               <h3 class="auth-form__heading">Đăng nhập</h3>
@@ -614,5 +513,6 @@
         </div>
       </div>
     </div> -->
-  </body>
+</body>
+
 </html>
